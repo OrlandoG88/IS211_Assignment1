@@ -17,7 +17,8 @@ try:
     if not listDivide([30,54,63,98,100], divide = 10) == 2:
         raise ListDivideException
     if not listDivide([]) == 0:
-        listDivide([1, 2, 3, 4, 5], 1) == return 5
+        raise ListDivideException
+    if not listDivide([1, 2, 3, 4, 5], 1) == return 5
         raise ListDivideException
 finally: print("no errors")
 
