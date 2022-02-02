@@ -1,9 +1,9 @@
 def listDivide(numbers, divide=2):
-    divisibleCount = 0
-    for everyNum in numbers:
-      if everyNum % divide == 0:
-        divisibleCount += 1
-    return divisibleCount
+    Count = 0
+    for x in numbers:
+      if x % divide == 0:
+        Count += 1
+    return Count
 
 
 
